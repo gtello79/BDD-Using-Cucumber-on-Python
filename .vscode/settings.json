@@ -1,0 +1,27 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "MyStoreDemo",
+            "socketPath": "/home/dragon/.config/Local/run/tt82wb0bQ/mysql/mysqld.sock",
+            "database": "local",
+            "username": "root"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Testing",
+            "database": "postgres",
+            "username": "postgres"
+        }
+    ]
+}

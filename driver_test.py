@@ -1,9 +1,13 @@
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service as ChromeService
+from webdriver_manager.chrome import ChromeDriverManager
+
 from selenium.webdriver.common.by import By
+
 
 # Configura el driver de Chrome con ChromeDriver
 # Al no pasar el parametro Service, está utilizando la version definida en el path
-driver = webdriver.Chrome()
+driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 
 # En caso que se quisiera utilizar otra version, deberá ser del tipo
 # Especifica la ruta al ejecutable de ChromeDriver
