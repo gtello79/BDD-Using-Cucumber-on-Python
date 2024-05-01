@@ -1,7 +1,0 @@
-export ENV=LOCAL
-export WOO_KEY=ck_d8a26b5ab6cb96d9082cb4d192c5d76b911ae161
-export WOO_SECRET=cs_583a1ff3fd971aeb1c817c4faf79e9f2d22b485c
-
-export DB_USER=root
-export DB_PASSWORD=root
-export DEBUG=false
